@@ -21,6 +21,8 @@
     // Init side bar styles
     LMSideBarDepthStyle *sideBarDepthStyle = [LMSideBarDepthStyle new];
     sideBarDepthStyle.menuWidth = 220;
+    sideBarDepthStyle.animationDuration = 0.4;
+    
     
     // Init view controllers
     LMLeftMenuViewController *leftMenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"leftMenuViewController"];

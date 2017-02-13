@@ -21,7 +21,7 @@
 #define kDefaultDepthStyleClosedScale       0.8
 #define kDefaultBlurRadius                  5
 #define kDefaultBlackMaskAlpha              0.4
-#define kDefaultAnimationBounceScale        0.05
+#define kDefaultAnimationBounceScale        0 // 0.05
 
 @interface LMSideBarDepthStyle ()
 {
@@ -144,6 +144,7 @@
     
     // Set up origin, destination center
     animationBounceSize = (W(self.contentView) * (1 - self.closedScale))/2;
+    
     originContentCenter = CGPointMake(midx(self.contentImageView), midy(self.contentImageView));
     if (direction == LMSideBarControllerDirectionLeft) {
         originMenuCenter = CGPointMake(-W(self.menuView)/2, midy(self.menuView));
@@ -323,6 +324,7 @@
     {
         // Set up origin, destination center
         animationBounceSize = (W(self.contentView) * (1 - self.closedScale))/2;
+        animationBounceSize = 0; // MARCO
         originContentCenter = CGPointMake(midx(self.contentImageView), midy(self.contentImageView));
         if (direction == LMSideBarControllerDirectionLeft) {
             originMenuCenter = CGPointMake(-W(self.menuView)/2, midy(self.menuView));
@@ -476,7 +478,7 @@
     if (state == LMSideBarControllerStateWillOpen || state == LMSideBarControllerStateDidOpen)
     {
         if (direction == LMSideBarControllerDirectionLeft) {
-            [values addObject:@(desMenuCenter.x + animationBounceSize)];
+//            [values addObject:@(desMenuCenter.x + animationBounceSize)];
         }
         else {
             [values addObject:@(desMenuCenter.x - animationBounceSize)];
@@ -654,11 +656,11 @@
     if (state == LMSideBarControllerStateWillOpen || state == LMSideBarControllerStateDidOpen)
     {
         if (direction == LMSideBarControllerDirectionLeft) {
-            [values addObject:@(originContentCenter.x + animationBounceSize * 2)];
+//            [values addObject:@(originContentCenter.x + animationBounceSize * 2)];
             [values addObject:@(originContentCenter.x + animationBounceSize)];
         }
         else {
-            [values addObject:@(originContentCenter.x - animationBounceSize * 2)];
+//            [values addObject:@(originContentCenter.x - animationBounceSize * 2)];
             [values addObject:@(originContentCenter.x - animationBounceSize)];
         }
     }
