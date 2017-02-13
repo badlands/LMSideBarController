@@ -13,15 +13,15 @@
 /**
  The side bar controller direction enums.
  */
-typedef NS_OPTIONS(NSUInteger, LMSideBarControllerDirection) {
+typedef NS_ENUM(NSUInteger, LMSideBarControllerDirection) {
     LMSideBarControllerDirectionLeft,
-    LMSideBarControllerDirectionRight,
+    LMSideBarControllerDirectionRight
 };
 
 /**
  The side bar controller state enums.
  */
-typedef NS_OPTIONS(NSUInteger, LMSideBarControllerState) {
+typedef NS_ENUM(NSUInteger, LMSideBarControllerState) {
     LMSideBarControllerStateWillOpen,
     LMSideBarControllerStateDidOpen,
     LMSideBarControllerStateWillClose,

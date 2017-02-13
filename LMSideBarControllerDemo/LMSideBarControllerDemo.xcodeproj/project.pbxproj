@@ -214,7 +214,7 @@
 				TargetAttributes = {
 					5C3E738A1BCA242F00B87553 = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 6HXC4UA9AV;
+						DevelopmentTeam = E9SH8KS33F;
 					};
 				};
 			};
@@ -376,11 +376,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 6HXC4UA9AV;
+				DEVELOPMENT_TEAM = E9SH8KS33F;
 				INFOPLIST_FILE = LMSideBarControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lminhtm.LMSideBarControllerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = it.nogood.ios.LMSideBarControllerDemo;
 				PRODUCT_NAME = LMSideBar;
 			};
 			name = Debug;
@@ -390,11 +390,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 6HXC4UA9AV;
+				DEVELOPMENT_TEAM = E9SH8KS33F;
 				INFOPLIST_FILE = LMSideBarControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lminhtm.LMSideBarControllerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = it.nogood.ios.LMSideBarControllerDemo;
 				PRODUCT_NAME = LMSideBar;
 			};
 			name = Release;
